@@ -8,7 +8,7 @@ html, body {
 
 body {
 	font-family: 'Sulphur Point', sans-serif;
-	background-color: #eeeeee;
+  background-color: #eeeeee; 
 }
 .nounderline {
     text-decoration: none !important
@@ -17,6 +17,7 @@ body {
 .portPageRestrictSize{
     height: 200px;
     width: 275px;
+    border: black 1px solid; 
   }
 
 .card-img-top {
@@ -30,6 +31,7 @@ body {
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
+  
   }
   .footer,
   .push {
@@ -39,5 +41,9 @@ body {
   .footer{
     text-align: center;
   }
+
+  /*  background-image: url("../images/aboutpage/bg.jpg");
+    background-size: cover; 
+    use this latter */
 
   
