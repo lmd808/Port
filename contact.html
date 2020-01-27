@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css"
+    />
+  <link rel="stylesheet" href="./assets/css/style.css" media="screen" title="no title" charset="utf-8">
+
+  <title>Laura DiTommaso</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col offset-1">
+          <br>
+            <a href="./index.html" class="nounderline"><h1>Laura DiTommaso</h1>
+                <h3>Full Stack Development</h3>
+            </a>
+            <hr>
+          </div>
+        </div> 
+        <div class="row">
+              <div class="col offset-1">
+                  
+              <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+                    <br>
+        <div class="row">
+          <div class="col offset-1">
+            <form>
+              <div class="form-group">
+                <label for=""><h4>Connect With Me Online: </h4></label>
+                <!-- collapse secion  -->
+                <div class="accordion" id="accordionExample">
+                    <div class="card" id="contactCard">
+                      <div class="card-header" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5 class="mb-0">
+                          <!-- <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> -->
+                            Email: 
+                          <!-- </button> -->
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body myCardBody">
+                          <a><i class="far fa-envelope"></i>LDEV@gmail.com</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5 class="mb-0">
+                          <!-- <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> -->
+                            github: 
+                          <!-- </button> -->
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body myCardBody">
+                            <i class="fab fa-github"></i> <a href="https://github.com/lmd808">lmd808</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="card">
+                      <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h5 class="mb-0">
+                          <!-- <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> -->
+                            Social: 
+                          <!-- </button> -->
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body myCardBody">
+                         <div> 
+                            <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/lauraditommaso-365360107/"> LinkedIn</a> 
+                         </div>
+                         <div><i class="fab fa-instagram"></i><a href="https://blessedpunk.tumblr.com/"> Instagram </a>
+                         </div>
+                         <div>  
+                            <i class="fab fa-tumblr-square"></i><a href="https://blessedpunk.tumblr.com/"> Tumblr</a>
+                        </div> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                <!-- collapse section  -->
+              </div>
+              <div><h4>Send Me an Email</h4></div>
+              <div class="form-group">
+                <label for="contact_email">Email address</label>
+                <input type="email" class="form-control" id="contact_email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="email_body">E-mail Message</label>
+                <textarea class="form-control" id="email_body" rows="3"></textarea>
+              </div>
+              <button id="submit" class="btn btn-primary float-right">Submit</button>
+      
+            </form>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-11-sm offset-1">
+                <a href="./index.html">← Back To Home</a>
+            </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init("user_LZGYLOBggL5FCDw6Woxte");
+         })();
+      </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <script src="./assets/js/contact.js"></script>
+  
+</body>
+
+</html>
