@@ -8,7 +8,7 @@ html, body {
 
 body {
 	font-family: 'Sulphur Point', sans-serif;
-  background-color: #eeeeee; 
+  /* background-color: #eeeeee;  */
 }
 .nounderline {
     text-decoration: none !important
@@ -19,31 +19,32 @@ body {
     width: 275px;
     border: black 1px solid; 
   }
+.indexPageRestrictSize{
+    height: 100px;
+    width: 125px;
+    border: black 1px solid; 
+  }
+.projofmonthRestrictSize{
+    height: 200px;
+    width: 250px;
+    /* border: black 1px solid;  */
+  }
+  /*I need to do styling on the my face class */
+.myFaceImage{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}  
+.testRow{
+  border-bottom: 1px solid; 
+}
 
 .card-img-top {
     height: 125px;
 }
-
-
-.container {
-    min-height: 100%;
-  
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
-  
-  }
-  .footer,
-  .push {
-    height: 50px;
-  }
-
-  .footer{
-    text-align: center;
-  }
-
   /*  background-image: url("../images/aboutpage/bg.jpg");
     background-size: cover; 
     use this latter */
-
-  
+#navbarColor01{
+  padding-bottom: 0px;
+}
