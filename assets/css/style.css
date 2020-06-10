@@ -17,7 +17,8 @@ body {
 .portPageRestrictSize{
     height: 200px;
     width: 275px;
-    border: black 1px solid; 
+    border: rgba(0,0,0,0.5) 1px solid; 
+    border-radius: 5px;
   }
 .indexPageRestrictSize{
     height: 100px;
@@ -26,7 +27,7 @@ body {
   }
 .projofmonthRestrictSize{
     height: 200px;
-    width: 250px;
+    width: 95%;
     /* border: black 1px solid;  */
   }
   /*I need to do styling on the my face class */
