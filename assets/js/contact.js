@@ -21,7 +21,7 @@ function email(contactEmail, emailBody) {
 	// template params
 	var templateParams = {
 		// who is the email going to?
-		to: 'lditom808@gmail.com',
+		to: 'Laura@lauraDitommaso.dev',
 		// subject
 		subject: `Gamma Contact request from ${contactEmail}`,
 		// body
